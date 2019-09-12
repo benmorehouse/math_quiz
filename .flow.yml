@@ -1,0 +1,11 @@
+---
+default:
+        cmd: | #/usr/bin/env bash
+
+
+                clear
+
+                cd ~/code/quiz
+
+                go build  -o /tmp/quiz .
+                /tmp/quiz
